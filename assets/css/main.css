@@ -181,6 +181,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
+		margin-top: 1em;
 		margin-bottom: 1em;
 	}
 
@@ -196,8 +197,8 @@ input, select, textarea {
 		position: relative;
 		display: block;
 		border: 0;
-		top: 4.5em;
-		margin-bottom: 9em;
+		top: 2em;
+		margin-bottom: 3em;
 		height: 6px;
 		border-top: solid 1px rgba(128, 128, 128, 0.2);
 		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
@@ -1788,6 +1789,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			padding: 0 2em 0 2em;
 		}
 
 		.image.fit {
@@ -2168,12 +2170,14 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		margin: 0 0 0 0;
+		padding: 6em 0 2em 0;
 	}
 
 		.wrapper.style2 {
 			padding-top: 0;
+			padding-bottom: 1px;
+
 		}
 
 /* Header */
@@ -2414,7 +2418,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 4.5em 0 0 0;
 		margin-bottom: 0;
 	}
 
@@ -2457,6 +2461,7 @@ input, select, textarea {
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
+
 
 /* Footer */
 
@@ -2765,8 +2770,8 @@ input, select, textarea {
 			}
 
 			hr {
-				top: 3em;
-				margin-bottom: 6em;
+				top: 1em;
+				margin-bottom: 2em;
 			}
 
 		/* Section/Article */
@@ -2801,6 +2806,7 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
+			
 		/* Actions */
 
 			form ul.actions {
@@ -3045,7 +3051,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				padding: 3em 1em 0em 1em;
 			}
 
 		/* Header */
@@ -3097,8 +3103,9 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 3em 2em 3em 2em;
+				padding: 3em 2em 1em 2em;
 			}
+
 
 		/* Sidebar */
 
