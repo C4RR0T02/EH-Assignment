@@ -1801,7 +1801,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
-			padding: 0 3em 0 3em;
+			padding: 0 1.5em 0 1.5em;
 		}
 
 		.image.left {
@@ -2599,10 +2599,9 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
-			width: 18em;
 			background: #fff;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 3em 1em 3em 1em;
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -2618,15 +2617,18 @@ input, select, textarea {
 
 			.carousel article .image {
 				position: relative;
-				left: -1em;
+				/*left: -1em;*/
 				top: 0;
-				width: auto;
-				margin-right: -2em;
-				margin-bottom: 3em;
+				/*width: 30em;*/
+				height: 20em;
+				margin: 0 auto;
+				/*margin-right: -2em;
+				margin-bottom: 3em;*/
 			}
 
 			.carousel article p {
 				text-align: center;
+				margin: 0 auto;
 			}
 
 /* Wide */
